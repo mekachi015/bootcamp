@@ -8,7 +8,8 @@ let operator = prompt('Select either (+ - * /) opertator');
 
 function calcSum(a,b){
     let string = "The final answer is:";
-    return string+ " " + a+b;
+    let c = a + b;
+    return string+ " " + c;
 }
 
 function calMultiple(a,b){
