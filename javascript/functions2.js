@@ -1,5 +1,6 @@
 var x = 150;
 var b =  Math.floor(Math.random() * 100) + 1;
+var a= 0;
 
 function myFun(){
     y = x*2;
@@ -12,3 +13,15 @@ function myFun(){
 myFun();
 console.log("the original value of x: " + x);
 console.log("the original value of b = " + b);
+
+
+
+function secFunction(a){
+    
+    return a+=1990;
+}
+let p ;
+
+console.log(secFunction(x));
+
+
