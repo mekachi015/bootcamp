@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChittyChat</title>
+    <link rel="stylesheet" href="/CSS/style.css" class="rel">
+    <script type = "text/javascript" src = "JS/app.js"></script>
+
+</head>
+
+<body>
+  
+    <div class="glass">
+        <h1> Ask the bot a question: </h1>
+        <h2> Go ahead, and ask your question</h2>
+
+        <div class="input">
+            <input type="text" id = "userBox"
+            onkeydown="if (event.keyCode == 13){ // when the enter key is press ... look up keyCodes 
+                talk();
+            }"
+            placeholder="Type your questions here"
+            />
+        </div>
+
+        <p id = "ChatLog"> Response: </p>
+
+    </div>
+
+</body>
+
+</html>
