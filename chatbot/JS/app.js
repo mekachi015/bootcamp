@@ -13,7 +13,7 @@ function talk(){
 
     var user =document.getElementById('userBox').value; ///get user input
 
-    document.getElementById('ChatLog').innerHTML = user + "<br>"
+    document.getElementById('ChatLog').innerHTML = user ~+ "<br>"
 
     if (user in know)
     {
