@@ -11,13 +11,13 @@ function talk(){
         "Bye" :"Okay, Meet again soon, nice chattiing to you"
     }
 
-    var user =document.getElementById('userBox').ariaValueMax; ///get user input
+    var user =document.getElementById('userBox').value; ///get user input
 
     document.getElementById('ChatLog').innerHTML = user + "<br>"
 
     if (user in know)
     {
-        document.getElementById('ChatLog').innerHTML = know[userBox] + "<br>"
+        document.getElementById('ChatLog').innerHTML = know[user] + "<br>"
     }
 
     else {
